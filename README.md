@@ -1,4 +1,4 @@
-# Graph-based-3D-Point-Cloud-Classification
+# Graph-based 3D Point Cloud Classification
 This repository aims at classify 3D points clouds with the help of graph neural networks (GNNs). Here, the raw input cloud is used as input to the GNN so that GNN will learn to capture meaningful local structures in order to classify the entire point set.
 ## Requirements
 - `Python 3.9`
