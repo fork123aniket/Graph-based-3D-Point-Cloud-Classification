@@ -23,3 +23,9 @@ The current implementation provides three imperative functions:-
 - All hyperparameters to control training and testing of the model are provided in the given `.py` file.
 ## Output Samples
 `num_graphs` variable is set to 4 in the current implementation, however, it can be set to any number based on the requirements.
+| Point Cloud Classes        | Position of Points           | Farthest Points Sampled  | Generated Dynamic Graph  |
+| -------------------------- |:----------------------------:| ------------------------:| ------------------------:|
+| 3d_cone      | 3d_moon | $1600 |
+| 3d_moon      | centered      |   $12 |
+| 3d_icecream | are neat      |    $1 |
+| 3d_ico2      | centered      |   $12 |
