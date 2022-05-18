@@ -25,7 +25,7 @@ The current implementation provides three imperative functions:-
 `num_graphs` variable is set to 4 in the current implementation, however, it can be set to any number based on the requirements.
 | Point Cloud Classes        | Position of Points           | Farthest Points Sampled  | Generated Dynamic Graph  |
 | -------------------------- |:----------------------------:| ------------------------:| ------------------------:|
-| 3d_cone      | 3d_moon | $1600 |
+| 3d_cone      | ![alt text](https://github.com/fork123aniket/Graph-based-3D-Point-Cloud-Classification/blob/main/Images/11.PNG) | $1600 |
 | 3d_moon      | centered      |   $12 |
 | 3d_icecream | are neat      |    $1 |
 | 3d_ico2      | centered      |   $12 |
