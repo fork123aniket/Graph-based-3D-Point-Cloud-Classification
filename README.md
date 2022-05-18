@@ -22,4 +22,4 @@ The current implementation provides three imperative functions:-
 - The average loss and associated test accuracy for the trained model are printed after every epoch. Moreover, upon completion of the training procedure, the best test accuracy for the trained model is also printed.
 - All hyperparameters to control training and testing of the model are provided in the given `.py` file.
 ## Output Samples
-num_graphs variable is set to 4 in the current implementation, however, it can be set to any number based on the requirements.
+`num_graphs` variable is set to 4 in the current implementation, however, it can be set to any number based on the requirements.
