@@ -21,8 +21,9 @@ The current implementation provides three imperative functions:-
 - In addition to these, it also provides class `PPFNet` that implements ***Point Pair Feature*** network, ***a rotation-invariant*** version of ***PointNet++*** architecture.
 - The average loss and associated test accuracy for the trained model are printed after every epoch. Moreover, upon completion of the training procedure, the best test accuracy for the trained model is also printed.
 - All hyperparameters to control training and testing of the model are provided in the given `.py` file.
+- The current implementation also utilizes the ***Farthest Point Sampling (FPS)*** procedure to downsample a point cloud. This is necessary to allow the network to extract more and more global features. Moreover, ***FPS*** iteratively selects a subset of points such that the sampled points are furthest apart.
 ## Output Samples
-`num_graphs` variable is set to 4 in the current implementation, however, it can be set to any number based on the requirements.
+`num_graphs` variable is set to 4 in the current implementation, however, it can be set to any number based on the requirements. Note that the current implementation sets `sampling_ratio` for ***FPS*** to *0.5* and the grey points in the 3<sup>rd</sup> column are disabled owing to applying ***FPS*** to that particular point cloud.
 | Point Cloud Classes        | Position of Points           | Farthest Points Sampled  | Generated Dynamic Graph  |
 | -------------------------- |:----------------------------:| ------------------------:| ------------------------:|
 | 3d_cone      | ![alt text](https://github.com/fork123aniket/Graph-based-3D-Point-Cloud-Classification/blob/main/Images/11.PNG) | ![alt text](https://github.com/fork123aniket/Graph-based-3D-Point-Cloud-Classification/blob/main/Images/12.PNG) | ![alt text](https://github.com/fork123aniket/Graph-based-3D-Point-Cloud-Classification/blob/main/Images/13.PNG) |
